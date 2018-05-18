@@ -99,7 +99,7 @@ string World::getBoardString() {
             if(this->world[row][col]->isOccupied())
                 stream << this->world[row][col]->getOrganism().getName() << "|";
             else
-                stream << " |";
+                stream << "  |";
         }
 
         // And line end

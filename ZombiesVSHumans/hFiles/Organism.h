@@ -8,8 +8,8 @@
 
 class Area;
 
-const std::string ZOMBIE_NAME = "\033[1;31mZ\033[0m";
-const std::string HUMAN_NAME = "\033[1;32mk\033[0m";
+const std::string ZOMBIE_NAME = "\033[1;31m██\033[0m";
+const std::string HUMAN_NAME = "\033[1;32m██\033[0m";
 
 class Organism{
 

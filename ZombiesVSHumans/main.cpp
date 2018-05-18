@@ -37,7 +37,7 @@ int main() {
 
         game.cycle();
 
-        usleep(400000);
+        usleep(100000);
 
     }while(!game.predatorsExtinct() && !game.preyExtinct());
 
